@@ -2,16 +2,40 @@ package com.example.comp2160.simpleui;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+
+  //  TextView textView01;
+  //  Button button01;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+  //      textView01 = (TextView)findViewById(R.id.textView01);
+  //      button01 = (Button)findViewById(R.id.button01);
+
+       // button01.setOnClickListener(new View.OnClickListener() {
+         //   @Override
+           // public void onClick(View v) {
+               //onClickExecute(v);
+             //   textView01.setText("Welcome Class From Listener");
+               // Log.d("SimpleUI","Listener Activated");
+           // }
+       // });
     }
+
+  //  public void onClickExecute2(View v){
+
+  //        textView01.setText("Welcome Class from View");
+  //      Log.d("SimpleUI", "OnClick Button Activated");
+  //  }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
